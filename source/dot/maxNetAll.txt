@@ -1,0 +1,36 @@
+digraph "netmaxNetAll" {
+	graph [fontname = "Helvetica",
+		fontsize = 14,
+		size = "7,7", ratio=fill, rankdir=LR, center=1 ];
+	node [ color = blue, style = filled, label="",
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	node [ color = blue, style = filled,
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	"00" -> "A1";
+	"A1" -> "A2";
+	"A2" -> "A3";
+	"A3" -> "A4";
+	"A4" -> "A5";
+	node [ color = brown, style = filled,
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	"00" -> "T6";
+	"T6" -> "T7";
+	"T7" -> "T8";
+	"T8" -> "T9";
+	node [ color = darkorchid4, style = filled,
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	"00" -> "C10";
+	"C10" -> "C11";
+	"C11" -> "C12";
+	"C12" -> "C13";
+	"C13" -> "C14";
+	"C14" -> "C15";
+	"C15" -> "C16";
+	"C16" -> "C17";
+	node [ color = deeppink4, style = filled,
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	"00" -> "G18";
+	"G18" -> "G19";
+	"G19" -> "G20";
+	"00" [ color = black ];
+}

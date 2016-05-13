@@ -1,0 +1,6 @@
+ALA	A
+GLY	G
+LEU	L
+PRO	P
+VAL	V
+SER	S

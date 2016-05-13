@@ -1,0 +1,42 @@
+digraph net1JCDA {
+	graph [fontname = "Helvetica",
+		fontsize = 10,
+		size = "7,7", ratio=fill, rankdir=LR, center=1 ];
+	node [ color = blue, style = filled,
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	node [ color = blue, style = filled,
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	"00" -> "A1";
+	"A1" -> "A3";
+	node [ color = brown, style = filled,
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	"00" -> "C2";
+	"C2" -> "C5";
+	node [ color = darkorchid4, style = filled,
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	"00" -> "D4";
+	"D4" -> "D8";
+	node [ color = deeppink4, style = filled,
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	"00" -> "E6";
+	node [ color = forestgreen, style = filled,
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	"00" -> "F7";
+	node [ color = gray41, style = filled,
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	"00" -> "G9";
+	node [ color = indigo, style = filled,
+		peripheries=2, fontcolor= white, fontname = "Helvetica" ];
+	"00" -> "H10";
+	"00" -> "A1" [ color="red" ];
+	"A1" -> "C2" [ color="red" ];
+	"C2" -> "A3" [ color="red" ];
+	"A3" -> "D4" [ color="red" ];
+	"D4" -> "C5" [ color="red" ];
+	"C5" -> "E6" [ color="red" ];
+	"E6" -> "F7" [ color="red" ];
+	"F7" -> "D8" [ color="red" ];
+	"D8" -> "G9" [ color="red" ];
+	"G9" -> "H10" [ color="red" ];
+	"00" [ color = black ];
+}

@@ -12,6 +12,11 @@ Sequence to Star Network (S2SNet) is a free Python application using wxPython fo
 * Create DOT language files
 * Plot and display networks as PNG images
 
+### Extra scripts
+
+* Transform FASTA format into S2SNet format
+* Scripts for different FASTA formats (Chembl, original FASTA, etc.)
+
 # Publications with S2SNet
 
 * S2SNet: A Tool for Transforming Characters and Numeric Sequences into Star Network Topological Indices in Chemoinformatics, Bioinformatics, Biomedical, and Social-Legal sciences, Current Bioinformatics 8(4), 429-437 (2013) | Cristian R. Munteanu, Alexandre L Magalhães, Aliuska Duardo Sánchez, Alejandro Pazos, Humberto González-Díaz
